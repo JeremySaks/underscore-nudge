@@ -2,7 +2,7 @@ Package.describe({
   name: 'jeremysaks:underscore-nudge',
   version: '1.8.3',
   summary: 'Add new underscore functionality to Meteor underscore.',
-  git: '',
+  git: 'https://github.com/JeremySaks/underscore-nudge',
   documentation: 'README.md'
 });
 

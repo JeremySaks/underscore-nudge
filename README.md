@@ -1,14 +1,20 @@
 ## Underscore Nudge
 
-Underscore Nudge is a simple Meteor package that extends Meteor's core `underscore` package with any new [underscore](http://underscorejs.org/) methods added since the core Meteor version. As of this writing, Meteor's core `underscore` runs a modification of `v1.5.2`. The current version of underscore is `v1.8.3` and contains many useful new methods.
+Underscore Nudge is a simple Meteor package that extends Meteor's core `underscore` package with any new methods added since the core Meteor version.
 
-The key point of this package is that any underscore method that already exists on the Meteor core version is *not* overwritten or modified. Meteor has modified underscore to suit the needs of the platform (see Meteor's _.each). Those modifications, and all of the underscore methods that exist on 1.5.2, are preserved without change.
+As of this writing, Meteor's core `underscore` runs a modification of `v1.5.2`. The current version of underscore is `v1.8.3` and contains many useful new methods.
+
+The key point of this package is that any underscore method that already exists on the Meteor core version is **not** overwritten or modified. Meteor has modified underscore to suit the needs of the platform (see Meteor's `_.each`). Those modifications, and all of the methods that exist on Meteor's core version, are preserved without change.
 
 Underscore Nudge simply checks if new underscore methods exist on the `_` global object. If they're missing, Nudge adds them in bulk.
 
+#### Installation
+
+`meteor add jeremysaks:underscore-nudge`
+
 #### Versioning
 
-The package version is pegged to the latest [underscore](https://github.com/jashkenas/underscore).
+The package version is pegged to the latest version of [underscore](https://github.com/jashkenas/underscore). Future updates are manual.
 
 #### Methods
 
