@@ -21,14 +21,14 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use([
-    'tinytest',
     'ecmascript',
     'underscore',
-    'jeremysaks:underscore-nudge'
+    'tinytest'
   ]);
   api.addFiles([
     'lib/pre.js',
     'src/underscore-min.1.8.3.js'
   ]);
-  api.addFiles(['tests/tests.js']);
+  api.use('jeremysaks:underscore-nudge');
+  api.addFiles('tests/tests.js');
 });
