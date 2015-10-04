@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jeremysaks:underscore-nudge',
-  version: '1.8.3',
+  version: '0.1.0',
   summary: 'Add new underscore functionality to Meteor underscore.',
   git: 'https://github.com/JeremySaks/underscore-nudge',
   documentation: 'README.md'
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   ]);
   api.addFiles([
     'lib/pre.js',
-    'src/underscore-min.1.8.3.js',
+    'underscore/underscore-min.js',
     'lib/nudge.js'
   ]);
 });
@@ -27,7 +27,7 @@ Package.onTest(function(api) {
   ]);
   api.addFiles([
     'lib/pre.js',
-    'src/underscore-min.1.8.3.js'
+    'underscore/underscore-min.js'
   ]);
   api.use('jeremysaks:underscore-nudge');
   api.addFiles('tests/tests.js');
