@@ -1,4 +1,4 @@
-## Underscore Nudge
+## Underscore Nudge [![Build Status](https://travis-ci.org/JeremySaks/underscore-nudge.svg?branch=master)](https://travis-ci.org/JeremySaks/underscore-nudge)
 
 Underscore Nudge is a simple Meteor package that extends Meteor's core `underscore` package with any new methods added since the core Meteor version.
 
