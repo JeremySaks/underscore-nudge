@@ -14,7 +14,6 @@ Package.onUse(function(api) {
   ]);
   api.addFiles([
     'lib/pre.js',
-    'underscore/underscore-min.js',
     'lib/nudge.js'
   ]);
 });
